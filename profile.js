@@ -9,8 +9,10 @@ const fillCard = () =>{
    const mail = document.getElementById('mail');
    const date = document.getElementById('date');
    const gender = document.getElementById('gender')
+   const password = document.getElementById('password')
 
    fullName.innerText = user.fullName;
+   password.innerText = user.password;
    mail.innerText = user.mail;
    date.innerText = user.date;
    gender.innerText = user.gender
