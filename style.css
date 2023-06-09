@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    background-color: #1BB295;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    padding: 25px;
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+form .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+form label{
+    display: block;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+
+form input, form select {
+    padding: 10px;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid  #bfbfbf;
+    margin-bottom: 15px;
+}
+
+.submit-btn input {
+    color: white;
+    border: none;
+    height: auto;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    padding: 13px 0;
+    background: #1BB295;
+    transition: 0.2 ease;
+}
+
+
+form .password i {
+    position: absolute;
+    right: 0px;
+    height: 45px;
+    top: 28px;
+    font-size: 13px;
+    line-height: 45px;
+    width: 45px;
+    cursor: pointer;
+    color: #939393;
+    text-align: center;
+  }
+
+form input.error {
+    border-color: red;
+    background: #f9f0f1;
+}
+
+form small {
+    color: red;
+    margin-top: 5px;
+    display: block;
+
+
+}

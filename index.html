@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- Enlace CDN de Fontawesome para los iconos -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+<body>
+    <div class="card">
+        <h2>Validacion de Formulario</h2>
+        <form action="profile.html">
+          <div class="form-group name">
+          <label class="label" for="">Nombre Completo</label>
+          <input type="text" id="name" name="name" class="nombre"  placeholder="Ingrese su nombre aqui...">
+
+          </div>
+          <div class="form-group mail">
+          <label class="label">Correo Electrónico</label>
+          <input type="email" id="mail" name="mail"  placeholder="Ingrese su mail aqui...">
+          </div>
+          <div class="form-group password">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Ingresa tu contraseña">
+            <i  id="botoncito-ojito" class="fa-solid fa-eye"></i>
+          </div>
+          <div class="form-group date">
+                <label class="label"for="">Fecha de Nacimiento</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+          <div class="form-group gender">
+            <label for="gender">Género</label>
+            <select id="gender">
+              <option value="" selected disabled>Selecciona tu género</option>
+              <option value="Male">Masculino</option>
+              <option value="Female">Femenino</option>
+              <option value="Other">Otro</option>
+            </select>
+          </div>
+          <div class="form-group form-group submit-btn ">
+            <input  type="submit">
+            </input>
+            </div>
+            </form>
+
+
+        </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
